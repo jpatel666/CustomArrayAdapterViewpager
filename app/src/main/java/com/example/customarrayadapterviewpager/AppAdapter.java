@@ -45,7 +45,7 @@ public class AppAdapter extends PagerAdapter {   //Alt+Enter
         ImageView ivImg = view.findViewById(R.id.ivImg);
         ivImg.setImageResource(img[position]);
         container.addView(view);               //container(Box) Store view
-        return view;   //return Type view
+        return view;
     }
 
     @Override
